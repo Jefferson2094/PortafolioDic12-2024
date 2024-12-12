@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><span>JEFFERSON PUICON COVA</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">Inicio</a>
+            </li>
+            <li>
+                <a href="#experience">Experiencia</a>
+            </li>
+            <li>
+                <a href="#projects">Projectos</a>
+            </li>
+            <li>
+                <a href="#contact">Contactame</a>
+            </li>
+        </ul>
+
+        <ion-icon name="menu" id="menu-icon"></ion-icon>
+        <button class="visit-btn">Visit GitHub</button>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="descarga.png">
+
+            <div class="info-box">
+                <div class="text">
+                    <h3>Etudiante de informatica y Sistemas</h3>
+                    <h1>JEFFERSON PUICON COVA</h1>
+                    <span>Backend Developer</span>
+                </div>
+                <div>
+                    <audio controls autoplay loop>
+                        <source src="music.mp3" type="audio/mpeg">
+                    </audio>
+                    <img src="giphy.gif" width="300" height="300">
+
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn">Descargar cv</div>
+                    <div class="btn">Contacto</div>
+                </div>
+
+                <div class="socials">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2 class="section-tittle">Experiencia</h2>
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <ion-icon name="desktop"></ion-icon>
+                    <span>Backend Developer</span>
+                    <h3>2 años estudiando</h3>
+                    <p>trabajamos msqlserver,c++,visual studio code, diseño de pagina web</p>
+                </div>
+                <div class="grid-card">
+                    <ion-icon name="construct"></ion-icon>
+                    <span>formateo de pc</span>
+                    <h3>1 año</h3>
+                    <p>instalacion de windows 10 y windows optimisado pableOs (windows de mayor rendimiento en juegos)</p>
+                </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-tittle">proyectos recientes</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="imc.jfif" alt="">
+                <h3>Projecto imc para celular</h3>
+                <p>este programa lo hicimos desde app inventor para ver nuestro IMC</p>
+                
+            </div>
+            <div class="project-card">
+                <img src="portafolio.png" alt="">
+                <h3>Projecto de portafolio personal</h3>
+                <p>esta pagina sirve para dar informacion acerca de nosotros </p>
+            </div>
+           
+    </section>
+    <section id="contact">
+    <section class="contact-section">
+        <h2>Contáctame</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">Inicio</a>
+            </li>
+            <li>
+                <a href="#experience">Experiencia</a>
+            </li>
+            <li>
+                <a href="#projects">Projectos</a>
+            </li>
+            <li>
+                <a href="#contact">Contacto</a>
+            </li>
+        </ul>
+
+        <p class="copyright">todos los derechos reservados</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
